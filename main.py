@@ -41,10 +41,6 @@ app = FastAPI(
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",
-    swagger_ui_init_oauth={},
-    swagger_js_url="https://unpkg.com/swagger-ui-dist@4/swagger-ui.js",
-    swagger_css_url="https://unpkg.com/swagger-ui-dist@4/swagger-ui.css",
-    swagger_favicon_url="https://unpkg.com/swagger-ui-dist@4/favicon-32x32.png",
 )
 
 # Add CORS middleware
